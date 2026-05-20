@@ -71,7 +71,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-rtp2httpd luci-i18n-rtp2httpd-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-dufs-zh-cn"
 
 # NFA765 (WCN6855) 无线网卡驱动及固件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-ath11k kmod-ath11k-pci ath11k-firmware-wcn6855 wpad-openssl"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-ath11k kmod-ath11k-pci ath11k-firmware-wcn6855 wpad-openssl"
 
 
 # kmod-usb-serial-option kmod-usb-net-cdc-mbim  #USB 驱动
@@ -80,7 +80,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-ath11k kmod-ath11k-pci ath11k-firmware-wc
 # luci-app-sms-tool-js luci-app-modemband #功能插件
 # pciutils usbutils 调试工具
 # kmod-hwmon-pwmfan: 风扇控制 (防止过热)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-serial-option kmod-usb-net-cdc-mbim kmod-mhi-pci-generic kmod-mhi-wwan-ctrl kmod-mhi-wwan-mbim luci-proto-modemmanager luci-app-sms-tool-js luci-app-modemband pciutils usbutils"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-serial-option kmod-usb-net-cdc-mbim kmod-mhi-pci-generic kmod-mhi-wwan-ctrl kmod-mhi-wwan-mbim luci-proto-modemmanager luci-app-sms-tool-js luci-app-modemband pciutils usbutils"
 
 
 #===========================以下imm仓库内的软件==============================↓
